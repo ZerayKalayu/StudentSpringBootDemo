@@ -28,6 +28,12 @@ public class StudentConfig {
 	                 LocalDate.of(2004, Month.JANUARY, 5)
 	                 
 	          );
+			Student yarez = new Student(
+	                 "Yarez", 
+	                 "yarez8714@gmail.com", 
+	                 LocalDate.of(1984,Month.MAY, 9)
+	                 
+	          );
 			
 			repository.saveAll(
 					List.of(mariam, alex)
